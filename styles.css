@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* buttons */
+button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 1px solid #3882f6;
+    font-size: 18px;
+   padding: 4px 12px; 
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav */
+.navBar{
+    background-color: #1F2937;
+    padding: 1em 13em;
+    display: flex;
+    flex: box;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+    color: #F9FAF8;
+}
+
+li{
+    color: #E5E7EB;
+}
+
+/* hero */
+.header{
+    background-color: #1F2937;
+    padding: 1em 13em;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.headerRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
+.headerLeft{
+    width: 50%;
+}
+
+
+.heroImage{
+    height: 20vw;
+    width: 30vw;
+}
+
+.heroHeader{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: .5rem;
+}
+
+.heroParagraph{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: .5rem;
+}
+
+/* info section */
+.infoHeader{
+    font-size: 2.5rem;
+    margin: 1rem 0rem;
+    text-align: center;
+}
+
+.infoHolder{
+    display: flex;
+    justify-content:space-between;
+    padding: 0% 25%;
+    margin-top: 2rem;
+}
+
+.infoCard{
+    width: 10%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoImage{
+    width: 10rem;
+    height: 10rem;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.infoText{
+    text-align: center;
+    width: 10rem;
+    margin-top: .5rem;
+    font-weight: 700;
+}
+
+/* quote */
+.quote{
+    background-color: #E5E7EB;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.quoteText{
+    text-align: center;
+    font-size: 36px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    color: #1f2937;
+}
+
+.quoteAuthor{
+    text-align:right;
+    align-self: flex-end;
+    padding-right: 10vw;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+/* CTA */
+.callToAction{
+    margin: 10vh 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctaCard{
+    background-color: #3882f6;
+    border-radius: 1rem;
+    width: 65%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 7rem;
+}
+
+.ctaText{
+    color:#F9FAF8;
+}
+
+.ctaSubtext{
+    color:#E5E7EB;
+}
+
+.ctaButton{
+    border: 2px solid #ffffff;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color:#E5E7EB;
+    height: 3vh;
+    padding-top: 1.5vh;
+    font-size: 12px;
+}
